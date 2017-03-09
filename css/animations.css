@@ -1,0 +1,94 @@
+/* Animations v2017.1 */
+
+.fadeIn {
+  -webkit-animation:fadein 0.5s forwards;
+  -moz-animation:fadein 0.5s forwards;
+  -ms-animation:fadein 0.5s forwards;
+  -o-animation:fadein 0.5s forwards;
+  animation:fadein 0.5s forwards;  
+}
+@keyframes fadein {
+    from { opacity:0; }
+    to   { opacity:1; visibility:visible; }
+}
+@-webkit-keyframes fadein {
+    from { opacity:0; }
+    to   { opacity:1; visibility:visible; }
+}
+.fadeOut { 
+  -webkit-animation:fadeOut 0.5s;
+  -moz-animation:fadeOut 0.5s;
+  -ms-animation:fadeOut 0.5s;
+  -o-animation:fadeOut 0.5s;
+  animation:fadeOut 0.5s;  
+}
+@keyframes fadeOut {
+    from { opacity:1; visibility:visible; }
+    to   { opacity:0; visibility:hidden; }
+}
+@-webkit-keyframes fadeOut {
+    from { opacity:1; visibility:visible; }
+    to   { opacity:0; visibility:hidden; }
+}
+
+.slideInLeft { 
+  -webkit-animation:slideInLeft 0.2s;
+  -moz-animation:slideInLeft 0.2s;
+  -ms-animation:slideInLeft 0.2s;
+  -o-animation:slideInLeft 0.2s;
+  animation:slideInLeft 0.2s; 
+}
+@keyframes slideInLeft {
+  from { transform:translate3d(-100%, 0, 0); }
+  to   { transform:translate3d(0, 0, 0); }
+}
+@-webkit-keyframes slideInLeft {
+  from { transform:translate3d(-100%, 0, 0); }
+  to   { transform:translate3d(0, 0, 0); }
+}
+.slideOutLeft { 
+  -webkit-animation:slideOutLeft 0.2s forwards;
+  -moz-animation:slideOutLeft 0.2s forwards;
+  -ms-animation:slideOutLeft 0.2s forwards;
+  -o-animation:slideOutLeft 0.2s forwards;
+  animation:slideOutLeft 0.2s forwards; 
+}
+@keyframes slideOutLeft {
+  from { transform:translate3d(0, 0, 0); }
+  to   { transform:translate3d(-100%, 0, 0); width:0; }
+}
+@-webkit-keyframes slideOutLeft {
+  from { transform:translate3d(0, 0, 0); }
+  to   { transform:translate3d(-100%, 0, 0); width:0; }
+}
+
+.slideInRight { 
+  -webkit-animation:slideInRight 0.2s;
+  -moz-animation:slideInRight 0.2s;
+  -ms-animation:slideInRight 0.2s;
+  -o-animation:slideInRight 0.2s;
+  animation:slideInRight 0.2s; 
+}
+@keyframes slideInRight {
+  from { transform:translate3d(100vw, 0, 0); }
+  to   { transform:translate3d(0, 0, 0); }
+}
+@-webkit-keyframes slideInRight {
+  from { transform:translate3d(100vw, 0, 0); }
+  to   { transform:translate3d(0, 0, 0); }
+}
+.slideOutRight { 
+  -webkit-animation:slideOutRight 0.2s forwards;
+  -moz-animation:slideOutRight 0.2s forwards;
+  -ms-animation:slideOutRight 0.2s forwards;
+  -o-animation:slideOutRight 0.2s forwards;
+  animation:slideOutRight 0.2s forwards; 
+}
+@keyframes slideOutRight {
+  from { transform:translate3d(0, 0, 0); }
+  to   { transform:translate3d(100vw, 0, 0); width:0; }
+}
+@-webkit-keyframes slideOutRight {
+  from { transform:translate3d(0, 0, 0); }
+  to   { transform:translate3d(100vw, 0, 0); width:0; }
+}
